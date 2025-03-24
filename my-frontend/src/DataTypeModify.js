@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './DataTypeModify.css'; // Importing the associated CSS for styling
-import './global.js';
+import TARGET_BACKEND_LINK from './global.js';
 
 function EditMapData() {
     // State variables
