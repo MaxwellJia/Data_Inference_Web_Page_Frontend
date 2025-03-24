@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 // frontend/src/App.js
 import React from 'react';

@@ -7,7 +7,7 @@ function EditMapData() {
     // State variables
     const [file, setFile] = useState(null); // Stores the uploaded file
     const [dtypes, setDtypes] = useState([]); // Stores the list of column names and their data types
-    const [isEdited, setIsEdited] = useState(false); // Tracks if the data has been edited
+    const [, setIsEdited] = useState(false); // Tracks if the data has been edited
     const [loading, setLoading] = useState(false); // Tracks the loading state
 
     // Handles file input change and updates the 'file' state
