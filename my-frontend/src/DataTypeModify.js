@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './DataTypeModify.css'; // Importing the associated CSS for styling
+import 'global.js';
 
 function EditMapData() {
     // State variables
@@ -26,7 +27,7 @@ function EditMapData() {
 
         try {
             // Make POST request to backend to process the file
-            const response = await axios.post('http://127.0.0.1:8000/api/types/', formData, {
+            const response = await axios.post(TARGET_BACKEND_LINK +'/api/types/', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },
@@ -71,7 +72,7 @@ function EditMapData() {
 
         try {
             // Make POST request to save the updated data and retrieve the modified file
-            const response = await axios.post('http://127.0.0.1:8000/api/save-types/', formData, {
+            const response = await axios.post(TARGET_BACKEND_LINK +'/api/save-types/', formData, {
                 headers: { 'Content-Type': 'multipart/form-data' },
                 responseType: 'blob', // Expect binary file as response
             });
