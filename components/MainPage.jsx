@@ -6,10 +6,9 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import DataTypeModify from "@/components/DataTypeModify";
 
 const navigation = [
-    { name: 'GitHub', href: '#' },
-    { name: 'Features', href: '#' },
-    { name: 'Marketplace', href: '#' },
-    { name: 'Company', href: '#' },
+    { name: 'GitHub', href: 'https://github.com/MaxwellJia/Data_Inference_Web_Page_Frontend' },
+    { name: 'Linkedin', href: 'https://www.linkedin.com/in/maxwelljia/' },
+    { name: 'Resume', href: 'https://drive.google.com/file/d/10FaUxQYXLQHvsGiANbs1hRSIObHKbrcb/view?usp=sharing' },
 ]
 
 export default function MainPage() {
@@ -39,8 +38,8 @@ export default function MainPage() {
                         ))}
                     </div>
                     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                        <a href="https://www.linkedin.com/in/maxwelljia/" className="text-sm/6 font-semibold text-gray-900">
-                            Linkedin <span aria-hidden="true">&rarr;</span>
+                        <a href="mailto:maxwelljia1@gmail.com" className="text-sm/6 font-semibold text-gray-900">
+                            Email Me <span aria-hidden="true">&rarr;</span>
                         </a>
                     </div>
                 </nav>
