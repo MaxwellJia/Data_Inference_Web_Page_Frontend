@@ -47,7 +47,7 @@ Follow these steps to start the frontend of the project (in local terminal):
 4. Jump to [README file in my-frontend](my-frontend/README.md) and use npm start to start the project.
 
 ## Web Page Screen Shot
-![img](./DataInferenceFE.png)
+![img](DataInferenceFE.PNG)
 
 
 ## Contact Information
