@@ -50,6 +50,7 @@ Follow these steps to start the frontend of the project (in local terminal):
 ![img](DataInferenceFE.png)
 
 
+
 ## Contact Information
 
 For any questions or suggestions, feel free to contact me at maxwelljia1@gmail.com
